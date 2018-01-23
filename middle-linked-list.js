@@ -1,3 +1,5 @@
+//based on tutorial from coderbyte.com
+
 
 //our nodes contain a data and a pointer to the node immediately to the
 //right of themselves
