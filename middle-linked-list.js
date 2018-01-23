@@ -6,11 +6,11 @@ function Node(data, next){
   this.next = next;
 }
 //the data should be unimportant
-let n1 = new Node("a", n2);
-let n2 = new Node("b", n3);
-let n3 = new Node("c", n4);
-let n4 = new Node("d", n5);
 let n5 = new Node("e", null);
+let n4 = new Node("d", n5);
+let n3 = new Node("c", n4);
+let n2 = new Node("b", n3);
+let n1 = new Node("a", n2);
 
 //find the middle node of the linked list
 
@@ -18,15 +18,17 @@ let n5 = new Node("e", null);
 let head = n1;
 //we will now create two pointers that will traverse the list, one will go one  node at a time
 //we wall call this one:\
-let slowPointer = n1;
+let slowPointer = head;
 //Now a pointer that moves twice as fast.
 //We will call this one:
-let fastPointer = n2;
+let fastPointer = head;
 
 //now we loop throught the list
 
-while(fastPointer.next.next!==null&&slowPointer.next!==null){
+while(fastPointer.next!==null&&slowPointer!==null){
   slowPointer = slowPointer.next;
-  fastPonter = fastPointer.next.next;
-
+  fastPointer = fastPointer.next.next;
 }
+console.log(slowPointer.data);
+
+//big(0) is 0n since we only go through the loop once
