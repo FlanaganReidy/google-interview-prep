@@ -1,3 +1,5 @@
+//Based on pseudocode from Introduction to Algorithms 3rd edition
+
 //Let's look at this like we are sorting playing cards in our hand.
 //We have cards 2 to 10 we want to be in order after having been dealt.
 
