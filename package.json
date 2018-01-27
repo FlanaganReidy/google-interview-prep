@@ -1,0 +1,23 @@
+{
+  "name": "google-interview-prep",
+  "version": "1.0.0",
+  "description": "This is where I'll be placing the various searches and sorts and other pieces of CS material as I learn and practice.",
+  "main": "insertionsort.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.1.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlanaganReidy/google-interview-prep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlanaganReidy/google-interview-prep/issues"
+  },
+  "homepage": "https://github.com/FlanaganReidy/google-interview-prep#readme"
+}
